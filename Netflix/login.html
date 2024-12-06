@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-zinc-950">
+    <div
+      style="
+        background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+          url('../Netflix/image/ntf-bg.jpeg');
+      "
+      class="h-screen w-screen flex bg-cover items-center justify-center"
+    >
+      <!-- from login -->
+      <div
+        class="bg-black bg-opacity-70 backdrop-blur-sm w-[550px] text-white py-8 px-8 rounded-md"
+      >
+        <div class="flex flex-col justify-center items-center gap-y-4">
+          <div>
+            <img class="w-44 mb-5" src="../Netflix/image/logo.png" alt="" />
+          </div>
+          <section class="w-full flex items-center justify-center">
+            <form class="w-full flex items-center justify-center flex-col">
+              <h3 class="text-4xl">Sign in to Netflix</h3>
+              <div class="flex flex-col gap-y-4 text-white  mt-6 w-[350px]">
+                <input class="px-4 py-3 rounded-md bg-stone-900 bg-opacity-70 border-[1px]" type="email" placeholder="Eamil or mobile number" />
+                <input class="px-4 py-3 rounded-md bg-stone-900 bg-opacity-70 border-[1px]" type="password" placeholder="Password" />
+                <a class="w-[350px] bg-[#E50915] text-center rounded-md text-white p-2 text-xl font-medium hover:bg-red-700 hover:scale-105 transition duration-200" href="../Netflix/myNetflix.html" type="submit" target="_blank">Sign In</a>
+                <span class="text-white text-center text-xl font-light">OR</span>
+                <button class="text-white bg-gray-600 bg-opacity-40 font-medium p-2 rounded-md hover:scale-105 transition duration-200">Login with code</button>
+                <a class="text-white text-center underline" href="">For get password?</a>
+                <div class="flex gap-3">
+                    <input class="h-auto w-5" type="checkbox">
+                    <p class="text-white">Remember me</p>
+                </div>
+                <div class="flex gap-1">
+                    <span class="text-zinc-400">New to Netflix?</span>
+                    <span class="text-white cursor-pointer hover:underline">Sign up now.</span>
+                </div>
+                <span class="text-zinc-400 text-sm">This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
+                <span class="text-[#318EF4] cursor-pointer underline font-extralight text-sm">Learn more.</span>
+            </div>
+            </form>
+          </section>
+        </div>
+      </div>
+      <!-- from login -->
+    </div>
+  </body>
+</html>

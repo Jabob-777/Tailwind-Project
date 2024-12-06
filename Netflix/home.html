@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-zinc-950">
+    <div
+      style="
+        background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+          url('../Netflix/image/ntf-bg.jpeg');
+      "
+      class="h-screen w-screen flex bg-cover items-center justify-center"
+    >
+      <!-- navbar -->
+      <div
+        class="flex fixed items-center top-0 p-6 w-full h-20 bg-zinc-950/[0.7]"
+      >
+        <div class="flex items-center justify-between w-full">
+          <div>
+            <img
+              class="w-32 h-auto"
+              src="../Netflix/image/logo.png"
+              alt=""
+            />
+          </div>
+          <div class="relative flex items-center ">
+            <i
+              class="fa-solid fa-earth-americas text-white absolute top-3 left-3 z-10"
+            ></i>
+            <select
+              class="bg-gray-500 bg-opacity-50 p-2 text-white rounded-lg pl-10 outline-none font-semibold hover:scale-105 hover:transition-all duration-200"
+            >
+              <option value="">Thai</option>
+              <option value="">English</option>
+            </select>
+            <div class="ml-2 hover:scale-105 hover:transition duration-200">
+                <a
+              href="login.html"
+              class="bg-[#E50915] p-2 px-5 rounded-lg text-white font-semibold hover:bg-red-700" target="_blank"
+              >เข้าสู่ระบบ</a
+            >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+
+      <!-- content -->
+    <div class="flex flex-col justify-center items-center w-full h-full text-white gap-2">
+        <div class="flex flex-col text-7xl items-center justify-center font-bold gap-y-4 mb-3">
+            <span>รับชมภาพยนต์มากมาย</span>
+            <span>อนิเมชันใหม่</span>
+            <span>ไม่จำกัดได้ที่ Netflix</span>
+        </div>
+        <div class="text-3xl font-medium flex items-center justify-center flex-col gap-y-2">
+            <p>ราคาเริ่มต้น 299 บาท</p>
+            <p>หากพร้อมรับชม ป้อนอีเมลเพื่อสร้างหรือเริ่มต้นการเป็นสมาชิกอีกครั้ง</p>
+        </div>
+        <div class="w-full flex items-center justify-center gap-3 mt-3">
+            <input type="text" placeholder="ที่อยู่อีเมล" class="p-3 w-[40%] rounded-md text-white outline-none text-xl bg-black bg-opacity-70 border-[1px]">
+            <button class="bg-[#E50915] p-3 rounded-md px-6 font-medium text-xl hover:bg-red-700">เริ่มต้น</button>
+        </div>
+    </div>
+       <!-- content -->
+    </div>
+  </body>
+</html>

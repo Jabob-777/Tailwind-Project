@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="bg-zinc-950">
+    <div class="container w-screen h-screen">
+      <!-- navbar -->
+      <div
+        class="bg-zinc-950/[2] w-screen mx-auto h-20 text-white flex items-center justify-between px-10 shadow-xl z-10"
+      >
+        <section class="flex items-center">
+          <div class="">
+            <img class="w-40 h-auto" src="../Netflix/image/logo.png" alt="" />
+          </div>
+          <div class="ml-10 text-lg font-medium flex gap-5">
+            <a
+              class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+              href="#"
+              >Home</a
+            >
+            <a
+              class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+              href="#"
+              >Tv Show</a
+            >
+            <a
+              class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+              href="#"
+              >Movie</a
+            >
+            <a
+              class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+              href="#"
+              >New & Popular</a
+            >
+            <a
+              class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+              href="#"
+              >My List</a
+            >
+          </div>
+        </section>
+        <section class="text-lg font-medium flex gap-5 items-center">
+          <a
+            class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+            href="#"
+            >Drama</a
+          >
+          <a
+            class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+            href="#"
+            >War</a
+          >
+          <button
+            class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button
+            class="hover:scale-90 transition duration-100 hover:text-[#E50915]"
+          >
+            <i class="fa-regular fa-bell"></i>
+          </button>
+          <div class="">
+            <img
+              class="w-10 rounded-md cursor-pointer hover:scale-105 transition duration-150 object-cover"
+              src="../Netflix/image/iconuser.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+      <!-- navbar -->
+
+      <!-- video -->
+      <div class="w-screen relative">
+          <video  src="../Netflix/video/video.mp4" muted loop autoplay class="w-full h-full object-cover"></video>
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent to-zinc-950 pointer-events-none"></div>
+        <div class="text-white top-1 px-10  absolute space-y-4 w-full justify-between flex items-center">
+          <div class="flex flex-col gap-y-4 text-sm">
+            <img src="../Netflix/image/image2.webp" alt="" />
+            <p>| After we Collieded | กลับมาสานต่อเรื่องราวความรัก</p>
+            <p>
+              "ฮาดีน" และ "เทซาร์" เจอกันอีกครั้ง
+              หลังจากมีเหตุให้ทั้งคู่ต้องเลิกรากัน
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam,
+              autem!
+            </p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero modi suscipit libero sint ipsum sit reiciendis minus odit doloremque quibusdam!</p>
+          </div>
+          <div class="">
+            <img src="../Netflix/image/l2.png" alt="">
+          </div>
+        </div>
+      </div>
+      
+      <!-- video -->
+
+      <!-- slider1 -->
+       <section class=" w-screen relative text-white px-10" style="margin-top: -320px; z-index: 1;">
+        <p class="text-xl">ซีรีย์เกาหลี</p>
+        <div class="owl-carousel owl-time text-white">
+            <!-- Series 1 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img1.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 1 -->
+             <!-- Series 2 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img2.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 2 -->
+             <!-- Series 3 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img3.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 3 -->
+             <!-- Series 4 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img4.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 4 -->
+             <!-- Series 5 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img5.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 5 -->
+             <!-- Series 6 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img6.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 6 -->
+             <!-- Series 7 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/korean/img7.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 7 -->
+        </div>
+       </section>
+       <!-- slider1 -->
+        <!-- slider2 -->
+       <section class=" w-screen relative text-white px-10" style="margin-top: 60px; z-index: 1;">
+        <p class="text-xl">ซีรีย์กำลังมาแรง</p>
+        <div class="owl-carousel owl-time text-white">
+            <!-- Series 1 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img1.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 1 -->
+             <!-- Series 2 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img2.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 2 -->
+             <!-- Series 3 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img3.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 3 -->
+             <!-- Series 4 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img4.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 4 -->
+             <!-- Series 5 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img5.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 5 -->
+             <!-- Series 6 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img6.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 6 -->
+             <!-- Series 7 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img7.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 7 -->
+        </div>
+       </section>
+       <!-- slider2 -->
+        <!-- slider3 -->
+       <section class=" w-screen relative text-white px-10" style="margin-top: 60px; z-index: 1;">
+        <p class="text-xl">ซีรีย์กำลังมาแรง</p>
+        <div class="owl-carousel owl-time text-white">
+            <!-- Series 1 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img1.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 1 -->
+             <!-- Series 2 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img2.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 2 -->
+             <!-- Series 3 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img3.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 3 -->
+             <!-- Series 4 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img4.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 4 -->
+             <!-- Series 5 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img5.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 5 -->
+             <!-- Series 6 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img6.jpeg" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 6 -->
+             <!-- Series 7 -->
+            <div class="item">
+                <!-- card -->
+                 <section class="item bg-zinc-950/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                    <div>
+                        <img src="../Netflix/image/trending/img7.webp" alt="">
+                    </div>
+                    <div class="p-3">
+                        <div class="flex justify-between">
+                            <div class="flex gap-4 items-center">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+                        </div>
+                        <p><span class="text-green-400 mr-2">95% Match</span>Limited Series</p>
+                        <p>Crime . Triller . Drama</p>
+                    </div>
+                 </section>
+                 <!-- card -->
+            </div>
+            <!-- Series 7 -->
+        </div>
+       </section>
+       <!-- slider3 -->
+    </div>
+   
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
