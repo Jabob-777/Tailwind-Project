@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen bg-slate-100">
+      <div class="bg-white flex  rounded-lg  shadow-lg">
+        <div class="flex flex-col justify-center p-10 space-y-2 items-center">
+          <img
+            class="w-28 h-20 object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png?20230715030042"
+            alt=""
+          />
+          <span class="text-4xl font-semibold">Login to DashBoard</span>
+          <span class="font-light text-gray-400"
+            >Please enter your details
+          </span>
+
+          <div class="flex flex-col items-start w-full py-2 space-y-2">
+            <span>Email</span>
+            <input
+              class="w-full border-gray-300 border-2 p-2 rounded-md font-light"
+              type="email"
+              placeholder="enter your email"
+            />
+          </div>
+
+          <div class="flex flex-col items-start w-full py-2 space-y-2">
+            <span>Password</span>
+            <input
+              class="w-full border-gray-300 border-2 p-2 rounded-md font-light"
+              type="password"
+              placeholder="enter your password"
+            />
+          </div>
+          <div class="flex justify-between w-full">
+            <div class="flex items-center gap-2">
+              <input class="w-4 h-4" type="checkbox" />
+              <span>Remember me</span>
+            </div>
+            <div>
+              <span>Forgot Password</span>
+            </div>
+          </div>
+          <div class="flex flex-col space-y-4 w-full">
+            <button class="bg-black text-white w-full p-3 rounded-lg mt-5">
+              Login
+            </button>
+            <button class="bg-black text-white w-full p-3 rounded-lg">
+              <i class="fa-brands fa-google mr-2"></i>Login with Google
+            </button>
+          </div>
+          <div class="py-4 space-x-1">
+            <span class="text-gray-400">Don't have an account ?</span>
+            <a href="#" class="hover:text-gray-600">Sign up</a>
+          </div>
+        </div>
+        <div class="relative ml-4">
+          <img class="w-[400px] h-full  md:block rounded-r-md object-cover"
+            src="https://cdn.pixabay.com/photo/2024/06/14/12/15/developer-8829735_1280.jpg"
+            alt=""
+          />
+          <div class="absolute hidden md:block bottom-10 right-6 p-6  backdrop-blur-sm rounded-lg shadow-xl">
+            <span class="text-white text-xl">
+              Login to management your project
+              <br>
+              <span class="text-blue-400">Enjoy your Coding with Kobdemy </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-900">
+    <div class="h-screen w-screen flex">
+      <!-- nav-bar-section -->
+      <div
+        class="bg-slate-950 w-screen h-20 flex items-center justify-between fixed shadow-lg"
+      >
+        <section class="flex items-center">
+          <div class="flex items-center">
+            <img
+              class="w-16 ml-6 mr-3"
+              src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3257079/file-type-tailwind-icon-md.png"
+              alt=""
+            />
+            <p class="text-white text-2xl font-semibold">Kob</p>
+            <p class="text-cyan-300 text-2xl font-semibold">Admin</p>
+          </div>
+          <p class="text-orange-600 font-semibold text-4xl ml-16">Analytic</p>
+        </section>
+        <section class="flex items-center gap-6 text-white mr-24 w-auto">
+          <div class="flex font-semibold">
+            <p>Hello Kob</p>
+            <p class="text-cyan-300">Admin</p>
+          </div>
+          <div><i class="fa-solid fa-circle-info cursor-pointer"></i></div>
+          <div><i class="fa-solid fa-gear cursor-pointer"></i></div>
+          <div><i class="fa-solid fa-bell cursor-pointer"></i></div>
+          <div class="">
+            <img
+              class="w-12 rounded-full border-2 border-orange-600"
+              src="https://cdn.pixabay.com/photo/2021/06/04/10/29/man-6309454_1280.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+      <!-- nav-bar-section -->
+
+      <!-- side-bar section-->
+      <aside
+        class="bg-slate-950 w-60 flex flex-col top-24 ml-10 h-[800px] fixed rounded-lg shadow-lg"
+      >
+        <section class="flex flex-col items-center mt-8">
+          <img
+            class="w-32 rounded-full"
+            src="https://cdn.pixabay.com/photo/2021/06/04/10/29/man-6309454_1280.jpg"
+            alt=""
+          />
+          <div class="flex text-white mt-5">
+            <p>Role :</p>
+            <p class="text-orange-500 ml-2">Super Admin</p>
+          </div>
+          <p class="text-gray-600 mt-2">Work For balance</p>
+        </section>
+        <section class="flex flex-col items-center mt-6 w-full gap-3">
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-cube text-orange-600 ml-10"></i>
+            <p>DashBoard</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-user text-orange-600 ml-10"></i>
+            <p>User</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-clock-rotate-left text-orange-600 ml-10"></i>
+            <p>History</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-chart-simple text-orange-600 ml-10"></i>
+            <p>Analytics</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-envelope text-orange-600 ml-10"></i>
+            <p>Tickets</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-tag text-orange-600 ml-10"></i>
+            <p>Sale list</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-circle-info text-orange-600 ml-10"></i>
+            <p>Report</p>
+          </div>
+          <div
+            class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 cursor-pointer"
+          >
+            <i class="fa-solid fa-gear text-orange-600 ml-10"></i>
+            <p>Setting</p>
+          </div>
+        </section>
+        <div
+          class="text-white flex items-center gap-3 text-lg hover:bg-gray-800 p-2 w-full hover:rounded-lg hover:scale-90 transition duration-200 mt-9 cursor-pointer"
+        >
+          <i class="fa-solid fa-right-from-bracket text-orange-600 ml-10"></i>
+          <p>Log out</p>
+        </div>
+      </aside>
+      <!-- side-bar section-->
+
+      <!-- content section -->
+      <div class="flex-1 ml-80 mr-[370px] mt-28 =">
+        <section class="flex justify-between w-full">
+          <div class="flex text-2xl text-white gap-2 items-center">
+            <p class="font-semibold">Total income</p>
+            <p class="text-orange-600">$</p>
+          </div>
+          <div class="flex items-center gap-4">
+            <div
+              class="bg-orange-600 p-2 w-24 flex justify-center items-center rounded-full shadow-lg text-white font-semibold hover:bg-gray-600 hover:scale-105 transition duration-150 cursor-pointer"
+            >
+              <i class="fa-solid fa-chart-simple mr-1"></i>Charts
+            </div>
+            <div
+              class="bg-orange-600 p-2 w-24 flex justify-center items-center rounded-full shadow-lg text-white font-semibold hover:bg-gray-600 hover:scale-105 transition duration-150 cursor-pointer"
+            >
+              <i class="fa-solid fa-paper-plane mr-1"></i>Sending
+            </div>
+            <div
+              class="bg-orange-600 p-2 w-24 flex justify-center items-center rounded-full shadow-lg text-white font-semibold hover:bg-gray-600 hover:scale-105 transition duration-150 cursor-pointer"
+            >
+              <i class="fa-solid fa-box mr-1"></i>Stock
+            </div>
+            <div
+              class="bg-orange-600 p-2 w-24 flex justify-center items-center rounded-full shadow-lg text-white font-semibold hover:bg-gray-600 hover:scale-105 transition duration-150 cursor-pointer"
+            >
+              All Order
+            </div>
+          </div>
+        </section>
+        <section class="flex justify-between mt-4">
+          <div
+            class="flex border-2 border-orange-600 w-[300px] h-[124px] rounded-xl bg-slate-950"
+          >
+            <div class="flex flex-col mt-4 ml-5 gap-1 w-full">
+              <p class="text-cyan-500 font-semibold">Total Sales</p>
+              <p class="text-white text-3xl font-semibold">$65,024</p>
+              <p class="text-green-600">
+                <i class="fa-solid fa-up-long text-[14px] mr-1"></i>+5.2%
+              </p>
+            </div>
+            <div class="mr-8 flex items-center">
+              <i
+                class="fa-solid fa-money-bill-trend-up text-orange-600 text-5xl"
+              ></i>
+            </div>
+          </div>
+          <div
+            class="flex border-2 border-orange-600 w-[300px] h-[124px] rounded-xl bg-slate-950"
+          >
+            <div class="flex flex-col mt-4 ml-5 gap-1 w-full">
+              <p class="text-violet-600 font-semibold">Using Stream</p>
+              <p class="text-white text-3xl font-semibold">105,024 user</p>
+              <p class="text-green-600">
+                <i class="fa-solid fa-up-long text-[14px] mr-1"></i>+85.2%
+              </p>
+            </div>
+            <div class="mr-8 flex items-center">
+              <i class="fa-brands fa-steam text-orange-600 text-5xl"></i>
+            </div>
+          </div>
+          <div
+            class="flex border-2 border-orange-600 w-[300px] h-[124px] rounded-xl bg-slate-950"
+          >
+            <div class="flex flex-col mt-4 ml-5 gap-1 w-full">
+              <p class="text-pink-600 font-semibold">ETH Transfer</p>
+              <p class="text-white text-3xl font-semibold">105,024 ETH</p>
+              <p class="text-green-600">
+                <i class="fa-solid fa-up-long text-[14px] mr-1"></i>+120.36M ETH
+              </p>
+            </div>
+            <div class="mr-8 flex items-center">
+              <i
+                class="fa-solid fa-money-bill-trend-up text-orange-600 text-5xl"
+              ></i>
+            </div>
+          </div>
+        </section>
+        <section class="flex flex-col w-full h-auto mt-4">
+          <div class="text-white text-2xl flex items-center">
+            <p class="font-semibold">User Working</p>
+            <i class="fa-solid fa-user ml-3 text-orange-600"></i>
+          </div>
+          <div
+            class="w-full h-36 bg-slate-950 grid grid-cols-7 px-4 mt-5 py-5 rounded-lg"
+          >
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-12 rounded-full h-12 object-cover border-2 border-green-500"
+                src="https://cdn.pixabay.com/photo/2023/04/26/09/25/ai-generated-7951983_1280.png"
+                alt=""
+              />
+              <p class="text-white font-semibold text-lg">AJ Kob</p>
+              <p class="text-gray-500 text-[12px]">Online</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-12 rounded-full h-12 object-cover border-2 border-red-600"
+                src="https://cdn.pixabay.com/photo/2023/01/06/20/49/handsome-7702113_1280.jpg"
+                alt=""
+              />
+              <p class="text-white font-semibold text-lg">AJ Noy</p>
+              <p class="text-gray-500 text-[12px]">Offline</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-12 rounded-full h-12 object-cover"
+                src="https://cdn.pixabay.com/photo/2021/06/04/10/30/man-6309464_1280.jpg"
+                alt=""
+              />
+              <p class="text-white font-semibold text-lg">AJ Nid</p>
+              <p class="text-gray-500 text-[12px]">3 Hour ago</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-12 rounded-full h-12 object-cover border-2 border-green-500"
+                src="https://cdn.pixabay.com/photo/2024/01/03/18/12/ai-generated-8485953_1280.jpg"
+                alt=""
+              />
+              <p class="text-white font-semibold text-lg">AJ Peth</p>
+              <p class="text-gray-500 text-[12px]">Online</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-12 rounded-full h-12 object-cover border-2 border-green-500"
+                src="https://cdn.pixabay.com/photo/2023/09/27/01/53/man-8278455_1280.jpg"
+                alt=""
+              />
+              <p class="text-white font-semibold text-lg">AJ Teii</p>
+              <p class="text-gray-500 text-[12px]">Online</p>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+              <img
+                class="w-12 rounded-full h-12 object-cover border-2 border-red-600"
+                src="https://cdn.pixabay.com/photo/2024/10/04/11/05/ai-generated-9096071_1280.jpg"
+                alt=""
+              />
+              <p class="text-white font-semibold text-lg">AJ Jey</p>
+              <p class="text-gray-500 text-[12px]">Offline</p>
+            </div>
+            <div class="flex items-center justify-center">
+              <i
+                class="fa-solid fa-circle-plus text-slate-800 text-[48px] shadow-xl cursor-pointer hover:scale-105 transition duration-200"
+              ></i>
+            </div>
+          </div>
+        </section>
+        <section class="flex flex-col w-full h-auto mt-4">
+          <div class="text-white text-2xl flex items-center">
+            <p class="font-semibold">Recent Order</p>
+            <i class="fa-solid fa-book-open ml-3 text-orange-600"></i>
+          </div>
+          <div
+            class="w-full h-[280px] bg-slate-950 mt-5 rounded-lg flex items-center justify-center"
+          >
+            <div class="text-white w-full">
+              <table
+                class="[&>thead>tr>th]:px-10 [&>thead>tr>th]:py-2 [&>tbody>tr>td]:px-10 [&>tbody>tr>td]:py-4 w-full"
+              >
+                <thead>
+                  <tr class="text-gray-400">
+                    <th>Course Name</th>
+                    <th>Price</th>
+                    <th>Course Number</th>
+                    <th>Payment</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-slate-800">
+                    <td class="text-yellow-200">TailwindCSS Advance</td>
+                    <td>$180</td>
+                    <td>85743</td>
+                    <td>True Money</td>
+                    <td class="text-red-500">Decillned</td>
+                    <td class="cursor-pointer hover:underline text-gray-300">
+                      Detail
+                    </td>
+                  </tr>
+                  <tr class="border-b border-slate-800">
+                    <td class="text-yellow-200">Java Tutorial</td>
+                    <td>$20</td>
+                    <td>51210</td>
+                    <td>PayPal</td>
+                    <td class="text-cyan-400">Pending</td>
+                    <td class="cursor-pointer hover:underline text-gray-300">
+                      Detail
+                    </td>
+                  </tr>
+                  <tr class="border-b border-slate-800">
+                    <td class="text-yellow-200">Python Tutorail</td>
+                    <td>$10</td>
+                    <td>45152</td>
+                    <td>SCB</td>
+                    <td class="text-green-400">Success</td>
+                    <td class="cursor-pointer hover:underline text-gray-300">
+                      Detail
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- content section -->
+
+      <!-- Dashboard section -->
+      <div class="w-80 fixed right-3 h-full flex flex-col top-24">
+        <section class="bg-slate-950 mt-5 h-[280px] rounded-lg mr-6 ml-6">
+          <div class="flex flex-col items-center justify-center">
+            <img
+              class="w-40 rounded-xl mt-8 h-40 object-cover"
+              src="https://thumbs.dreamstime.com/b/futuristic-ai-brain-neon-lights-digital-intelligence-cyberpunk-art-high-tech-neural-network-glowing-nodes-artificial-ai-322332592.jpg"
+              alt=""
+            />
+            <p class="text-white font-semibold text-xl mt-3">Admin Dashboard</p>
+            <p class="text-gray-600">Im Web developer Full Stack</p>
+          </div>
+        </section>
+        <section class="flex flex-col items-center w-full mt-6">
+          <div class="flex justify-between text-white w-full items-center">
+            <p class="font-medium text-xl text-orange-600 ml-6">Reminders</p>
+            <i
+              class="fa-solid fa-bell mr-6 bg-slate-950 p-3 rounded-full text-orange-500"
+            ></i>
+          </div>
+          <div
+            class="grid grid-cols-3 bg-slate-950 w-full h-20 mt-5 rounded-lg text-white"
+          >
+              <div class="w-16 flex items-center justify-center ml-3">
+                <i
+                class="fa-solid fa-volume-high text-orange-600 bg-white px-[10px] py-[12px] rounded-full"
+              ></i>
+              </div>
+            <div class="text-sm flex justify-center items-start flex-col w-32">
+              <p class=" font-semibold">Workshop Class 01</p>
+              <p class="text-green-600 font-semibold">Javascript</p>
+              <p class="text-gray-400">12:00 AM - 12:00 PM</p>
+            </div>
+            <div class="flex items-center justify-center ml-6">
+              <img class="w-20"
+                src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Emblem.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-3 bg-slate-950 w-full h-20 mt-5 rounded-lg text-white"
+          >
+              <div class="w-16 flex items-center justify-center ml-3">
+                <i
+                class="fa-solid fa-tornado text-orange-600 bg-white px-[12px] py-[10px] rounded-full "
+              ></i>
+              </div>
+            <div class="text-sm flex justify-center flex-col items-start w-32">
+              <p class=" font-semibold">Workshop Class 02</p>
+              <p class="text-green-600 font-semibold">TailwindCSS</p>
+              <p class="text-gray-400">13:00 AM - 14:00 PM</p>
+            </div>
+            <div class="flex items-center justify-end mr-4">
+              <img class="w-14"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png?20230715030042"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-3 bg-slate-950 w-full h-20 mt-5 rounded-lg text-white"
+          >
+              <div class="w-16 flex items-center justify-center ml-3">
+                <i
+                class="fa-regular fa-snowflake text-orange-600 bg-white px-[12px] py-[10px] rounded-full "
+              ></i>
+              </div>
+            <div class="text-sm flex justify-center w-32 flex-col">
+              <p class=" font-semibold">Workshop Class 03</p>
+              <p class="text-green-600 font-semibold">ReactJs</p>
+              <p class="text-gray-400">12:00 AM - 12:00 PM</p>
+            </div>
+            <div class="flex items-center justify-end mr-4">
+              <img class="w-14"
+                src="https://quanchau.github.io/images/react.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <button class="border-2 border-dashed text-white font-semibold py-2 mt-5 rounded-lg bg-gray-900 hover:bg-slate-950 hover:scale-105 transition duration-150">+ Add Reminder</button>
+      </div>
+
+      <!-- Dashboard section -->
+       
+    </div>
+  </body>
+</html>
